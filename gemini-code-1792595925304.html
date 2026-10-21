@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RP DELIGHT | Traditional Sri Lankan Sweets & Savories</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Serif+Sinhala:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                            900: '#78350f',
+                            deep: '#451a03'
+                        },
+                        saffron: '#eab308',
+                        terracotta: '#c2410c'
+                    },
+                    fontFamily: {
+                        heading: ['"Abhaya Libre"', 'serif'],
+                        sinhala: ['"Noto Serif Sinhala"', 'serif'],
+                        body: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #fdfbf7;
+            color: #292524;
+        }
+        .sinhala-text {
+            font-family: 'Noto Serif Sinhala', serif;
+        }
+        .bg-pattern {
+            background-image: radial-gradient(#d97706 0.75px, transparent 0.75px);
+            background-size: 24px 24px;
+            opacity: 0.08;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Top Info Bar -->
+    <div class="bg-brand-deep text-amber-100 text-xs sm:text-sm py-2 px-4 border-b border-amber-900/50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 text-center sm:text-left">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-saffron"></i> Kundasale, Kandy</span>
+                <span class="hidden md:inline text-amber-700">•</span>
+                <span class="hidden md:flex items-center gap-1.5"><i class="fa-solid fa-certificate text-saffron"></i> 100% Homemade & Fresh</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:0707755626" class="hover:text-amber-300 transition-colors flex items-center gap-1.5"><i class="fa-solid fa-phone text-saffron"></i> 070 775 5626</a>
+                <a href="mailto:sandeepapadmasiri@gmail.com" class="hover:text-amber-300 transition-colors hidden sm:flex items-center gap-1.5"><i class="fa-solid fa-envelope text-saffron"></i> sandeepapadmasiri@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-amber-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-tr from-brand-700 to-amber-500 flex items-center justify-center text-white font-bold text-xl shadow-md group-hover:scale-105 transition-transform">
+                    RP
+                </div>
+                <div>
+                    <span class="block text-2xl font-black tracking-tight text-brand-deep font-heading">RP DELIGHT</span>
+                    <span class="block text-[10px] sm:text-xs tracking-wider uppercase text-brand-600 font-semibold">Traditional Sri Lankan Sweets</span>
+                </div>
+            </a>
+
+            <div class="hidden md:flex items-center gap-8 font-medium text-stone-700">
+                <a href="#about" class="hover:text-brand-600 transition-colors">Our Story</a>
+                <a href="#menu" class="hover:text-brand-600 transition-colors">Menu & Pricing</a>
+                <a href="#calculator" class="hover:text-brand-600 transition-colors">Quick Order</a>
+                <a href="#contact" class="hover:text-brand-600 transition-colors">Contact</a>
+            </div>
+
+            <a href="https://wa.me/94707755626?text=Hello%20RP%20DELIGHT!%20I%20would%20like%20to%20place%20an%20order." target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-4 sm:px-5 py-2.5 rounded-full shadow-md flex items-center gap-2 text-sm transition-all transform active:scale-95">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span class="hidden sm:inline">Order via WhatsApp</span>
+                <span class="sm:hidden">WhatsApp</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-b from-amber-50 via-amber-100/30 to-white pt-12 pb-16 md:pt-20 md:pb-28 overflow-hidden">
+        <div class="absolute inset-0 bg-pattern pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+            <div class="max-w-3xl mx-auto text-center space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-100/80 border border-amber-200 text-brand-800 text-xs sm:text-sm font-medium">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    Authentic Homemade Sweets & Catering • Kandy
+                </div>
+                
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-stone-900 tracking-tight leading-tight font-heading">
+                    පාරම්පරික ශ්‍රී ලාංකීය රසකැවිලි
+                    <span class="block text-brand-600 font-normal italic text-2xl sm:text-3xl md:text-4xl mt-2">Authentic Traditional Sri Lankan Delicacies</span>
+                </h1>
+                
+                <p class="text-stone-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
+                    Handmade with love using traditional recipes, pure Kithul treacle, fresh coconut, and premium ingredients. Delivered fresh across Kundasale and Kandy area.
+                </p>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                    <a href="#menu" class="w-full sm:w-auto px-8 py-3.5 bg-brand-600 hover:bg-brand-700 text-white font-semibold rounded-xl shadow-lg shadow-brand-600/20 text-center transition-all">
+                        Browse Full Menu
+                    </a>
+                    <a href="#calculator" class="w-full sm:w-auto px-8 py-3.5 bg-white hover:bg-stone-50 border border-stone-200 text-stone-800 font-semibold rounded-xl shadow-sm text-center transition-all">
+                        Calculate Order Total
+                    </a>
+                </div>
+
+                <!-- Features list -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8 border-t border-amber-200/60 text-stone-700 text-xs sm:text-sm font-medium">
+                    <div class="flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-leaf text-emerald-600"></i>
+                        <span>100% Natural</span>
+                    </div>
+                    <div class="flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-heart text-amber-600"></i>
+                        <span>Mother's Recipe</span>
+                    </div>
+                    <div class="flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-box text-terracotta"></i>
+                        <span>Bulk Event Catering</span>
+                    </div>
+                    <div class="flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-truck-fast text-brand-700"></i>
+                        <span>Fresh Kandy Delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-brand-600 font-bold uppercase tracking-wider text-xs sm:text-sm">Freshly Made To Order</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-stone-900 mt-1 font-heading">අපගේ ප්‍රණීත කෑම වට්ටෝරුව</h2>
+                <p class="text-stone-500 text-sm sm:text-base mt-2">Select a category below to filter our items or place a direct WhatsApp order.</p>
+            </div>
+
+            <!-- Category Filter Tabs -->
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-3 mb-10" id="category-filters">
+                <button onclick="filterCategory('all')" class="cat-btn active bg-brand-600 text-white px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all shadow-sm" data-cat="all">
+                    All Items (සියල්ල)
+                </button>
+                <button onclick="filterCategory('sweets')" class="cat-btn bg-stone-100 hover:bg-stone-200 text-stone-700 px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all" data-cat="sweets">
+                    Traditional Sweets (කැවිලි)
+                </button>
+                <button onclick="filterCategory('cakes')" class="cat-btn bg-stone-100 hover:bg-stone-200 text-stone-700 px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all" data-cat="cakes">
+                    Cakes (කේක්)
+                </button>
+                <button onclick="filterCategory('savory')" class="cat-btn bg-stone-100 hover:bg-stone-200 text-stone-700 px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all" data-cat="savory">
+                    Savory & Kiribath (කෙටි කෑම / කිරිබත්)
+                </button>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="product-grid">
+                <!-- Dynamic Items Inserted via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Order Calculator Section -->
+    <section id="calculator" class="py-16 bg-amber-50/50 border-y border-amber-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-amber-100">
+                <div class="text-center max-w-xl mx-auto mb-8">
+                    <span class="inline-block px-3 py-1 rounded-full bg-amber-100 text-brand-800 text-xs font-bold uppercase tracking-wider mb-2">Order Calculator</span>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-stone-900 font-heading">ඇණවුම් අගය ගණනය කරන්න</h2>
+                    <p class="text-stone-500 text-xs sm:text-sm mt-1">Select your items and quantities to instantly calculate your total and generate a ready-to-send WhatsApp order!</p>
+                </div>
+
+                <div class="space-y-4 max-h-[400px] overflow-y-auto pr-2 custom-scrollbar" id="calc-items-container">
+                    <!-- Dynamic Calc Rows Inserted Here -->
+                </div>
+
+                <!-- Calculator Footer Summary -->
+                <div class="mt-8 pt-6 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div>
+                        <span class="text-xs text-stone-500 block uppercase font-medium">Estimated Total Price</span>
+                        <div class="text-3xl font-extrabold text-brand-700">
+                            Rs. <span id="calc-total">0.00</span>
+                        </div>
+                    </div>
+
+                    <button onclick="sendCalculatedOrder()" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3.5 rounded-xl font-bold flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/20 transition-all active:scale-95">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>Send Order via WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="text-brand-600 font-bold uppercase tracking-wider text-xs sm:text-sm">About RP DELIGHT</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-stone-900 font-heading leading-tight">
+                        අපගේ පාරම්පරික රසයේ කතාව <br>
+                        <span class="text-brand-700 text-2xl sm:text-3xl font-normal italic">Made with Authentic Mother's Passion</span>
+                    </h2>
+                    <p class="text-stone-600 leading-relaxed text-sm sm:text-base">
+                        RP DELIGHT was built on a deep passion for preserving genuine Sri Lankan sweet-making traditions. Operating directly from our home kitchen in Kundasale, Kandy, every item is freshly prepared with traditional techniques and zero compromise on quality.
+                    </p>
+                    <p class="text-stone-600 leading-relaxed text-sm sm:text-base">
+                        Whether you need traditional sweets for Avurudu, weddings, family functions, corporate gifts, or simply craving fresh home-baked cakes and savory tea-time snacks, we accept small and bulk catering orders tailored to your events.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4 pt-4">
+                        <div class="p-4 rounded-xl bg-amber-50/60 border border-amber-100">
+                            <i class="fa-solid fa-mortar-pestle text-2xl text-brand-600 mb-2"></i>
+                            <h4 class="font-bold text-stone-800 text-sm">Authentic Recipes</h4>
+                            <p class="text-xs text-stone-500 mt-1">Prepared traditional way without artificial additives.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-amber-50/60 border border-amber-100">
+                            <i class="fa-solid fa-shield-heart text-2xl text-brand-600 mb-2"></i>
+                            <h4 class="font-bold text-stone-800 text-sm">Clean & Hygienic</h4>
+                            <p class="text-xs text-stone-500 mt-1">Made in small fresh batches with maximum care.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-brand-800 to-amber-900 text-white rounded-3xl p-8 sm:p-10 shadow-2xl relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-amber-500/10 rounded-full blur-2xl"></div>
+                    <h3 class="text-2xl font-bold mb-6 font-heading text-amber-200">Contact & Pickup Details</h3>
+                    
+                    <div class="space-y-6 text-sm">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 text-saffron">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-amber-100">Address</h5>
+                                <p class="text-amber-200/80 mt-0.5">17/1 Nithulethanne, Kundasale, Kandy</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 text-saffron">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-amber-100">Phone & WhatsApp</h5>
+                                <p class="text-amber-200/80 mt-0.5">070 775 5626</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 text-saffron">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-amber-100">Email Address</h5>
+                                <p class="text-amber-200/80 mt-0.5">sandeepapadmasiri@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-amber-700/50 flex items-center justify-between">
+                        <span class="text-xs text-amber-300 font-medium">Accepting Bulk Orders</span>
+                        <a href="https://wa.me/94707755626" target="_blank" class="text-xs font-bold text-saffron hover:underline flex items-center gap-1">
+                            Inquire Now <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-stone-900 text-stone-400 py-12 border-t border-stone-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center space-y-6">
+            <div class="flex items-center justify-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-brand-600 flex items-center justify-center text-white font-bold text-sm">
+                    RP
+                </div>
+                <span class="text-xl font-bold text-white font-heading tracking-wide">RP DELIGHT</span>
+            </div>
+
+            <p class="text-xs sm:text-sm text-stone-400 max-w-md mx-auto">
+                17/1 Nithulethanne, Kundasale, Kandy • Phone: 070 775 5626 <br> Email: sandeepapadmasiri@gmail.com
+            </p>
+
+            <div class="pt-6 border-t border-stone-800 text-xs text-stone-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <p>&copy; RP DELIGHT. All Rights Reserved.</p>
+                <p>Authentic Sri Lankan Sweets & Delicacies</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Data and Interactivity -->
+    <script>
+        // Updated Complete Product List with exact pricing
+        const products = [
+            // Sweets
+            { id: 1, name: "ආස්මී (Aasmi)", category: "sweets", price: 100, badge: "Traditional Special" },
+            { id: 2, name: "උඳුවැල් / පැණි වළලු (Pani Walalu)", category: "sweets", price: 60, badge: "Syrup Infused" },
+            { id: 3, name: "කොණ්ඩ කැවුම් (Konda Kavum)", category: "sweets", price: 70, badge: "Best Seller" },
+            { id: 4, name: "මුං කැවුම් (Mung Kavum)", category: "sweets", price: 60, badge: "Homemade" },
+            { id: 5, name: "අතිරස (Athirasa)", category: "sweets", price: 50, badge: "Traditional" },
+            { id: 6, name: "කොමළ කැවුම් (Komala Kavum)", category: "sweets", price: 70, badge: "Special" },
+            { id: 7, name: "හැඳි කැවුම් (Handi Kavum)", category: "sweets", price: 60, badge: "Fresh" },
+            { id: 8, name: "නාරං කැවුම් (Narang Kavum)", category: "sweets", price: 50, badge: "Popular" },
+            { id: 9, name: "අලුවා (Aluwa)", category: "sweets", price: 50, badge: "Cardamom Spiced" },
+            { id: 10, name: "වැලි තලප (Weli Thalapa)", category: "sweets", price: 60, badge: "Kithul Flavor" },
+
+            // Cakes
+            { id: 11, name: "බටර් කේක් (Butter Cake)", category: "cakes", price: 1200, badge: "Fresh Baked" },
+            { id: 12, name: "චොකලට් කේක් (Chocolate Cake)", category: "cakes", price: 1300, badge: "Rich & Moist" },
+
+            // Savory & Kiribath
+            { id: 13, name: "සැන්ඩ්විච් (Sandwich)", category: "savory", price: 100, badge: "Tea Snack" },
+            { id: 14, name: "කට්ලට් (Cutlet)", category: "savory", price: 70, badge: "Crispy" },
+            { id: 15, name: "රෝල්ස් (Rolls)", category: "savory", price: 70, badge: "Hot & Fresh" },
+            { id: 16, name: "කිරි බත් (Kiribath)", category: "savory", price: 50, badge: "Traditional" },
+            { id: 17, name: "කිරි බත් (ලුණු මිරිස් සමඟ)", category: "savory", price: 60, badge: "Served with Lunu Miris" }
+        ];
+
+        let currentQuantities = {};
+        products.forEach(p => currentQuantities[p.id] = 0);
+
+        // Render Cards in Grid (Text-only design without images)
+        function renderProducts(filter = 'all') {
+            const grid = document.getElementById('product-grid');
+            grid.innerHTML = '';
+
+            const filtered = filter === 'all' 
+                ? products 
+                : products.filter(p => p.category === filter);
+
+            filtered.forEach(p => {
+                const card = document.createElement('div');
+                card.className = "bg-white border border-stone-200 hover:border-brand-500 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group";
+                
+                card.innerHTML = `
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[11px] font-bold uppercase tracking-wider text-brand-700 bg-amber-100 px-2.5 py-1 rounded-full">
+                                ${p.badge}
+                            </span>
+                            <span class="text-xs text-stone-400">ID: #${p.id}</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-stone-800 group-hover:text-brand-600 transition-colors sinhala-text leading-snug">
+                            ${p.name}
+                        </h3>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-stone-100 flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-stone-400 block uppercase">Price</span>
+                            <span class="text-lg font-extrabold text-stone-900">Rs. ${p.price.toLocaleString()}</span>
+                        </div>
+                        <button onclick="directWhatsAppOrder('${p.name}', ${p.price})" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold px-3.5 py-2 rounded-lg flex items-center gap-1.5 transition-colors">
+                            <i class="fa-brands fa-whatsapp text-sm"></i>
+                            <span>Order</span>
+                        </button>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Render Calculator List
+        function renderCalculator() {
+            const container = document.getElementById('calc-items-container');
+            container.innerHTML = '';
+
+            products.forEach(p => {
+                const row = document.createElement('div');
+                row.className = "flex items-center justify-between p-3.5 rounded-xl bg-stone-50 border border-stone-200/70 hover:bg-white transition-colors gap-3";
+                
+                row.innerHTML = `
+                    <div class="flex-1 min-w-0">
+                        <h4 class="font-bold text-stone-800 text-sm truncate sinhala-text">${p.name}</h4>
+                        <span class="text-xs text-stone-500">Rs. ${p.price.toLocaleString()} each</span>
+                    </div>
+
+                    <div class="flex items-center gap-2">
+                        <button onclick="updateQty(${p.id}, -1)" class="w-8 h-8 rounded-lg bg-stone-200 hover:bg-stone-300 text-stone-700 font-bold flex items-center justify-center text-sm transition-colors active:scale-95">-</button>
+                        <span id="qty-${p.id}" class="w-8 text-center font-bold text-sm text-stone-800">0</span>
+                        <button onclick="updateQty(${p.id}, 1)" class="w-8 h-8 rounded-lg bg-brand-600 hover:bg-brand-700 text-white font-bold flex items-center justify-center text-sm transition-colors active:scale-95">+</button>
+                    </div>
+                `;
+                container.appendChild(row);
+            });
+        }
+
+        // Category Filtering Logic
+        function filterCategory(cat) {
+            document.querySelectorAll('.cat-btn').forEach(btn => {
+                if (btn.dataset.cat === cat) {
+                    btn.className = "cat-btn active bg-brand-600 text-white px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all shadow-sm";
+                } else {
+                    btn.className = "cat-btn bg-stone-100 hover:bg-stone-200 text-stone-700 px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all";
+                }
+            });
+            renderProducts(cat);
+        }
+
+        // Quantity Update in Calculator
+        function updateQty(id, change) {
+            const current = currentQuantities[id] || 0;
+            const updated = Math.max(0, current + change);
+            currentQuantities[id] = updated;
+            
+            document.getElementById(`qty-${id}`).innerText = updated;
+            calculateTotal();
+        }
+
+        // Calculate Total
+        function calculateTotal() {
+            let total = 0;
+            products.forEach(p => {
+                total += (currentQuantities[p.id] || 0) * p.price;
+            });
+            document.getElementById('calc-total').innerText = total.toLocaleString('en-US', { minimumFractionDigits: 2 });
+        }
+
+        // Direct Single Item WhatsApp Order
+        function directWhatsAppOrder(itemName, itemPrice) {
+            const text = `Hello RP DELIGHT! I would like to order: %0A- ${itemName} (Rs. ${itemPrice})`;
+            window.open(`https://wa.me/94707755626?text=${text}`, '_blank');
+        }
+
+        // Send Calculated Summary to WhatsApp
+        function sendCalculatedOrder() {
+            let selectedItems = [];
+            let total = 0;
+
+            products.forEach(p => {
+                const qty = currentQuantities[p.id] || 0;
+                if (qty > 0) {
+                    const itemTotal = qty * p.price;
+                    total += itemTotal;
+                    selectedItems.push(`• ${p.name} x ${qty} = Rs. ${itemTotal.toLocaleString()}`);
+                }
+            });
+
+            if (selectedItems.length === 0) {
+                alert("Please add at least one item quantity before submitting your order.");
+                return;
+            }
+
+            let msg = `Hello RP DELIGHT! I would like to place an order:%0A%0A${selectedItems.join('%0A')}%0A%0A*Estimated Total: Rs. ${total.toLocaleString()}*%0A%0APlease confirm availability and pickup/delivery details.`;
+            window.open(`https://wa.me/94707755626?text=${msg}`, '_blank');
+        }
+
+        // Initialize Page
+        renderProducts();
+        renderCalculator();
+    </script>
+</body>
+</html>
